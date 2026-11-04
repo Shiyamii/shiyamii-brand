@@ -48,13 +48,18 @@ https://cdn.jsdelivr.net/gh/Shiyamii/shiyamii-brand@<version>/<chemin>
 - Tout changement visuel donne lieu à un nouveau tag (`1.1.0`…). On ne déplace ni ne supprime jamais un tag existant.
 - Dans le `README.md`, utilise des **chemins relatifs** (`logos/…`) pour les aperçus. Les URLs jsDelivr servent seulement au tableau de liens à copier.
 
+## État
+
+- Publié en `1.0.0` le 2026-11-04. Le dépôt est public et jsDelivr sert les SVG, PNG et ICO avec le bon type (vérifié).
+- Licence : **tous droits réservés** (voir `LICENSE`). Ne la change pas sans l'accord de Tamas.
+- Les pages Outline de la charte affichent les images par lien jsDelivr `@1.0.0`.
+
 ## Points en attente
 
-- **Licence** : à décider par Tamas. Ne la choisis pas à sa place.
-- Le dépôt doit être **public** pour que jsDelivr fonctionne (à vérifier sur GitHub).
-- Avant de généraliser, teste un premier lien jsDelivr (SVG dans un `<img>`).
 - Teste le favicon dans un navigateur et le `.ico` sous Windows.
-- Une fois les URLs valides, ajoute les images par lien dans les pages Outline de la charte.
+- Confirme que l'instance Outline affiche bien les images externes.
+- Confirme les tailles minimales du logo.
+- Décide si `dark-aurore` est vraiment utilisé ou reste une variante.
 
 ## Conventions Outline
 
